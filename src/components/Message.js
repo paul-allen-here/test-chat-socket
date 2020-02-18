@@ -1,7 +1,6 @@
 import React from 'react'
 
 const Message = ({ props }) => {
-  console.log(props);
   return (
   <div class="col s12 m12">
     <div class="card indigo darken-2">

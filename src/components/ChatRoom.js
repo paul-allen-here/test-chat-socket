@@ -4,6 +4,7 @@ import * as actions from '../actions';
 import MessagesList from './MessagesList';
 import Sidebar from './Sidebar';
 
+// main chat room
 const ChatRoom = ({ state, join, connect, send, initRoom, initName, location }) => {
 
     const [room, setRoom] = useState('');
@@ -49,10 +50,10 @@ const ChatRoom = ({ state, join, connect, send, initRoom, initName, location }) 
             <div className = "row chat-container">
                 <div className = "input-field col s12">
                     <div className = 'halved-container'>
-                        <div className = 'half1'>
+                        <div className = 'half3'>
                             <Sidebar props = { state.users }/>
                         </div>
-                        <div className = 'half2'>
+                        <div className = 'half5'>
                             <MessagesList props = { state.messages }/>
                         </div>
                         <div id = 'message-box' class = "container">

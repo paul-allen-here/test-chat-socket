@@ -28,7 +28,6 @@ const reducer = (state = initialState, action) => {
         
         case 'ROOM_UPDATE':
             newState = {...state};
-            console.log(action.payload);
             newState.users = action.payload.users;
             return newState;
 

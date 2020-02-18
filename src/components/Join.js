@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import * as actions from '../actions';
 
+// Sing in screen
+
 const Join = ({state, initName}) => {
 
     const [name, setName] = useState('');
     const [room, setRoom] = useState('');
-
-    console.log(state);
     
     return (
         <div className = "row join-container">

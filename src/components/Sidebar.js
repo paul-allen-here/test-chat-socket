@@ -1,7 +1,7 @@
 import React from 'react'
 
+// draw list of users in the room
 const Sidebar = ({ props }) => {
-    console.log(props);
     if (props) {
         return (
             <div class="col s12 m12">

@@ -1,8 +1,8 @@
 import React from 'react'
 import Message from './Message'
 
+// messages screen
 const MessagesList = ({ props }) => {
-  console.log("messages: ", props);
   if (props) {
     return(
       <section id="messages">

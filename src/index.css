@@ -73,11 +73,11 @@ body {
     justify-content: space-around;
 }
 
-.half1 {
+.half3 {
     flex: 3;
 }
 
-.half2 {
+.half5 {
     flex: 5;
 }
 
