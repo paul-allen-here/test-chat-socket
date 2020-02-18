@@ -14,6 +14,9 @@ const io = require('socket.io')(server);
 app.use(router);
 app.use(cors());
 
+app.use(express.static('./build/static'));
+app.use(express.urlencoded({ extended: true }))
+
 io.on('connection', socket => {
     console.log("User connected!");
 
