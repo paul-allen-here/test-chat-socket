@@ -3,7 +3,7 @@ const express = require('express');
 const router = express.Router();
 
 router.get('/', (req, res) => {
-    res.render("Server is running");
+    res.send("Server is running");
 });
 
 module.exports = router;
